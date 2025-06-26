@@ -1,0 +1,16 @@
+- To get all divisors of a number check number % number from 1 to sqrt(number) equals to 0
+- log10(n)+1 returns count of digits in an integer number
+- sum of first n natural numbers:= N(N+1)/2
+- xor of number with itself results in zero. To calculate missing number in an array of first N numbers
+    do xor of all array elements and xor of all elements from 1 to N, then again do xor of these two,
+    it will give missing number or else we can use sum of first N natural numbers approach also
+- In array, every element is repeated twice except one, to find this we can do xor of all array elements
+    which will give the resultant output.
+- If the length of string is N, then there can be N*(N+1)/2 possible substrings.
+- Subarrays are contiguous array elements on the other hand subsequence can be created using any elements
+    from the array.
+    Ex- arr=[-1,2,4,5,1,5,0] then Subarrays will be [2,4,5], [5,1,5,0], [-1,2,4]
+        and subsequence will be [-1,5,4], [0,2,1]
+
+
+- Subarrays sum equals k (prefixsum approach looking for k check s-k in map)
